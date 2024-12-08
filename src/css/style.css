@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.title__colored {
+  font-size: 41px;
+  line-height: 41px;
+  color: #f9bf3b;
+}
+
+.title__big {
+  font-size: 80px;
+  line-height: 80px;
+  color: #ffffff;
+}
+
+.btn {
+  min-width: 315px;
+  min-height: 72px;
+  display: block;
+  margin: 0 auto;
+  padding: 0 15px;
+  border-radius: 4px;
+  background: linear-gradient(0deg, #ff4d00 0%, #feb05d 100%);
+
+  color: white;
+  text-align: center;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.promo {
+  min-height: 800px;
+  background: url("../img/main-bg.jpg") center center / cover no-repeat;
+  padding: 22px 0 53px 0;
+}
+
+.promo h1 {
+  margin-top: 52px;
+}
+
+.promo h2 {
+  margin-top: 12px;
+}
+
+.logo__img {
+  display: block;
+  margin: 0 auto;
+}
+
+.logo__text {
+  text-align: center;
+  margin-top: 13px;
+  color: white;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.promo__text {
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.promo__text span {
+  color: #f9bf3b;
+  text-transform: uppercase;
+}
+
+.promo .btn {
+  margin-top: 75px;
+}
+
+.promo__more-text {
+  text-align: center;
+  margin-top: 75px;
+  color: white;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.promo__more-img {
+  display: block;
+  margin: 10px auto 0px auto;
+}
+
+.intensive {
+  background-color: #efefef;
+  padding: 80px 0 80px 0;
+}
+
+.intensive__title {
+  text-align: center;
+  color: #252525;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.intensive__text {
+  text-align: center;
+  color: #4a4a4a;
+  margin-top: 15px;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.intensive__descr {
+  text-align: center;
+  color: #4a4a4a;
+  padding: 0 9px;
+  margin-top: 15px;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+.divider {
+  background-color: #f9bf3b;
+  width: 220px;
+  height: 7px;
+  margin: 0 auto;
+  margin-top: 14px;
+}
